@@ -1,0 +1,13 @@
+package net.hb.day14;
+
+public class Three {
+
+	public static void main(String[] args) {
+		//51페이지
+		int su = 37;
+		int result = su + 10 ;
+		System.out.println(su);
+		System.out.println(result);
+	}
+
+}//class END

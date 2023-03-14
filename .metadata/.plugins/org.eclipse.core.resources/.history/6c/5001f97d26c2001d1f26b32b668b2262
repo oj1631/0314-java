@@ -1,0 +1,10 @@
+package net.hb.day14;
+
+public class Testesc {
+
+	public static void main(String[] args) {
+		//65페이지
+		System.out.println("나는 '자바'를 좋아합니다 2:07");
+	}
+
+}

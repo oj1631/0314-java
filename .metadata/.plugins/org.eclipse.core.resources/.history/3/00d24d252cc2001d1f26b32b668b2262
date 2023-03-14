@@ -1,0 +1,13 @@
+package net.hb.day14;
+
+public class Testdouble {
+
+	public static void main(String[] args) {
+		//실수=소수점있는경우,자바에서 실수타입은 double권장=8Byte
+		double piA=3.1415;
+		double rateA=1023.75; //환율
+		System.out.println(piA);//출력
+		System.out.println(rateA);//출력
+	}
+
+}//class END

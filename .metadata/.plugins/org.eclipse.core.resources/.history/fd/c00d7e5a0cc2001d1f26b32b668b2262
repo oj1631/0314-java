@@ -1,0 +1,9 @@
+package net.hb.day14;
+
+public class First {
+
+	public static void main(String[] args) {
+		System.out.println("박준수-hong gil dong");
+	}
+
+}

@@ -1,0 +1,12 @@
+package net.hb.day14;
+
+public class Testdouble {
+
+	public static void main(String[] args) {
+		//실수=소숫점있는경우,자바에서 실수타입은 double권장
+		double pi=3.1415;
+		double rate=1023.75; //환율
+		System.out.println(pi);
+	}
+
+}//class END

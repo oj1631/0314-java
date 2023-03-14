@@ -1,0 +1,10 @@
+package sec03.exam01;
+
+public class MyHome {
+
+	public static void main(String[] args) {
+		System.out.println("홍길동 메시")
+
+	}//end
+
+}//class END

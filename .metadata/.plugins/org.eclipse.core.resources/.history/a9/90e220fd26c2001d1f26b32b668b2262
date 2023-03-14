@@ -1,0 +1,16 @@
+package net.hb.day14;
+
+public class Testesc {
+
+	public static void main(String[] args) {
+		//65페이지
+		System.out.println("나는 \"자바\"를 좋아합니다 2:07");
+		System.out.println("나는 \'자바\'를 좋아합니다 2:10");
+		System.out.println("나는 '자바'를 좋아합니다 2:10");
+		System.out.println();//엔터기능
+		System.out.println("시금치빵토마토떡커피");
+		System.out.println("파스타빵오렌지떡커피");
+		System.out.println("천혜향빵토마토떡커피");
+	}
+
+}

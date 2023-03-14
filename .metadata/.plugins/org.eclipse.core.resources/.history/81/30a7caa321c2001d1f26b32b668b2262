@@ -1,0 +1,13 @@
+package net.hb.day14;
+
+public class RunStatementExample {
+
+	public static void main(String[] args) {//42페이지
+		int x=1;
+		int y=2;
+		int result=x+y;
+		System.out.println("합계는=" + result);
+		
+
+	}
+}//class END

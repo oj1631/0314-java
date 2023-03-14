@@ -1,0 +1,8 @@
+package net.hb.day14;
+
+public class Testvar {
+	public static void main(String[] args) {
+		int kor=90; //지역변수
+		System.out.println("길동씨 국어=" + kor);
+	}
+}//class END

@@ -1,0 +1,153 @@
+영임쌤 컴퓨터  
+ ip주소 192.168.0.157 
+ \\192.168.0.157
+
+자바jdk, 이클립스, 데이터베이스, 스프링,  톰캣 순으로 설치
+*-------------------------------------------------------------------
+https://www.oracle.com
+https://www.oracle.com/java/
+https://www.oracle.com/java/technologies/downloads/#jdk17-windows
+https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html
+
+
+*소스편집기 
+https://www.eclipse.org
+https://www.eclipse.org/downloads/
+https://www.eclipse.org/downloads/packages/
+
+
+Products클릭
+ ㄴ왼쪽아래하단 Oracle Database클릭
+ ㄴ왼쪽 마지막 Other database products
+   ㄴDatabase Express Edition(XE)
+     ㄴ하단에 Resources  Download Oracle Database XE
+       https://www.oracle.com/database/technologies/xe-downloads.html?source=:ow:o:p:nav:070220DatabaseHero
+
+11g~12c버젼
+https://www.oracle.com/database/technologies/xe-prior-release-downloads.html
+https://www.oracle.com/database/technologies/xe-prior-release-downloads.html
+https://www.oracle.com/tools/downloads/sqldev-downloads.html
+
+
+*도움말api
+자바주소 https://www.oracle.com/
+https://docs.oracle.com/javase/8/docs/api/index.html
+https://docs.oracle.com/javase/8/docs/api/index.html
+https://docs.oracle.com/javase/8/docs/index.html
+
+
+*아파치사이트 톰캣다운로드=웹서버(9버젼, 10버젼 권장)
+https://www.apache.org/
+https://tomcat.apache.org/
+ ㄴBinary Distributions
+   ㄴCore
+    ㄴ4번째 64-bit Windows zip(pgp, sha512)클릭 반드시 zip압축파일 권장
+
+
+
+*스프링
+https://spring.io/
+ㄴProjects클릭
+  ㄴSpring tools 4
+    ㄴspring tools 4 for Eclipse맨마지막 window
+      ㄴspring-tool-suite-4-~x86_64.self-extracting.jar파일 압축풀어서
+         contents.zip파일 압축풀기
+           sts-4.17.2.RELEASE폴더
+           SpringToolSuite4.exe실행파일 
+
+C:\Mtest폴더
+ ㄴworkjava
+  ㄴeclipse
+    ㄴeclipse.exe파일선택후 바로가기  eclipse.exe-0313변경
+  ㄴmy 수작업으로 폴더를 작업공간workspace사용
+
+ //반드시 MyHome.java정답   myHome.java에러발생  Myhome.java에러발생
+ 
+ 
+  이클립스 편집기 File => New... Project  => Java Project ===>Day0313
+  Day0313
+   ㄴJRE System library[javaSE-17]
+   ㄴsrc => New... Package  => sec03.exam01  
+     sec03.exam01  => New... Class ==> MyHome입력후 아래에 main체크
+
+
+  package sec03.exam01;
+
+  public class  MyHome{
+    publc static void main(String[] args){
+       System.out.println("본인이름");
+    }
+  }//class END
+	
+ MyHome.java
+  my/Day0313/src/sec03/exam01/MyHome.java   ===>소스확인 수정,삭제,추가등등
+  my/Day0313/bin/sec03/exam01/MyHome.class  ===>기계소스=바이트코드
+
+ ~~~>  javac.exe  MyHome.java 
+       컴파일  MyHome.class
+ ~~~>  java.exe   MyHome  실행할때는 파일명  
+       이클립스에서 단축 ctrl+F11 ▼ 
+
+*-------------------------------------------------------------------
+자바언어의 특징
+1번째 대소문자 정확히 구별합니다  String맞음, string틀림
+      string name="홍길동"; 에러   String name="홍길동"; 
+      int age = 24.5 ; 에러       int age = 24 ;
+      char grade = "B" ; 에러     char grade = 'B' ; 
+      String pos = 'B' ; 에러     String pos = "B" ;
+
+      var jumsu=78;  자바가 아닙니다
+      var name="lee" ; 자바가 아닙니다
+
+2번째 자바에서 기본출력 
+     	System.out.println("안내문") ; //라인개행됨
+	System.out.print("안내문") ; //라인개행안됨
+	System.out.println() ; //br태그
+
+3번째 자바기초는 메모리진입함수=메소드 main입니다  
+     그리고 main함수 앞에 키워드도 정확히 기술해야 합니다 static void~~기술
+4번째 자바에서 클래스 맨앞에 public기술하면 좋아요
+     자바에서 메소드 맨앞에 public기술하면 좋아요
+5번째 자바는 데이터 타입존재 var대신 타입기술 
+        기본타입=primitive타입, 참조타입=reference타입(배열,클래스)
+	정수 int age=24 ;
+	실수 double rate=98.76;
+	불bool   boolean gender=true;
+	한글자''  char grade='B';
+	한글자/한글자이상 ""
+        String title="어쩌구당근마켓개발자" ;
+        String key="B" ;
+
+
+
+*-------------------------------------------------------------------
+*-------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
